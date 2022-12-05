@@ -1,5 +1,6 @@
 
 #include <catch2/catch_test_macros.hpp>
+#include <memory>
 
 // TEST_CASE("Queue pop", "[queue]") {
 //   Queue<int, 10> queue;

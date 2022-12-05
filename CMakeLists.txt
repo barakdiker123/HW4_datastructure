@@ -6,6 +6,7 @@ project(baz LANGUAGES CXX VERSION 0.0.1)
 set(CMAKE_CXX_STANDARD 20)
 
 find_package(Catch2 3 REQUIRED)
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 add_executable(main main.cpp)
 target_include_directories(main PUBLIC include)
